@@ -1,0 +1,11 @@
+When to use?
+
+- Predicting a value based on trend
+
+Types:
+
+Multiple regression (multiple predictive attributes)
+
+Univariate vs. Multivariate regression (single vs. multiple values being 
+predicted)
+
