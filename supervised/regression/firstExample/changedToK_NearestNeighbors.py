@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt 
 import numpy as np
 import pandas as pd
-import sklearn.linear_model
+import sklearn.neighbors
 import os
 
 '''
@@ -39,7 +39,7 @@ country_stats.plot(kind='scatter', x="GDP per capita", y='Life satisfaction')
 plt.show()
 
 # Select a linear model
-model = sklearn.linear_model.LinearRegression()
+model = sklearn.neighbors.KNeighborsRegressor(n_neighbors=3)
 
 # Train the model
 model.fit(X, y)
